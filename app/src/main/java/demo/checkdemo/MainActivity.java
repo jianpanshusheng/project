@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "onCreate: s9--->"+s9 );
         Log.e(TAG, "onCreate: s10--->"+s10 );
         Log.e(TAG, "onCreate: s11--->"+s11 );
+        Log.e(TAG, "onCreate: s11--->"+s11 );
 
     }
 
@@ -144,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
         holder.setFixedSize(mVideoWidth, mVideoHeight);
         ViewGroup.LayoutParams lp = surfaceview.getLayoutParams();
         lp.width = dw;
-        lp.height = 769;
+        lp.height = 787;
         surfaceview.setLayoutParams(lp);
         surfaceview.invalidate();
     }
